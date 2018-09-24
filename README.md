@@ -13,7 +13,7 @@ Databases used:
 * [`Interactome INSIDER`](http://interactomeinsider.yulab.org)
 * [`The European Bioinformatics Institute`](https://www.ebi.ac.uk)
 
-Organisms Used for Transferring Annotations Between:
+Organisms used:
 * Escherichia Coli, Strain K12
 * Drosophila Melanogaster
 * Mus Musculus
