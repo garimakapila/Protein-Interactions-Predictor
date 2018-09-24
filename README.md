@@ -28,13 +28,12 @@ Organisms used:
 
 2. Setup BLAST: follow installation and configuration steps from [`NCBI BLAST Manual`](https://www.ncbi.nlm.nih.gov/books/NBK279671/)
 
-4. Have [`PyPI`](https://pypi.org/) and run the following to install requirements:
+3. Have [`PyPI`](https://pypi.org/) and run the following to install requirements:
 ```
 pip install -r requirements.txt
 ```
 
-5.
-Running 'python run.py' prints instructions for how to use this program:
+4. Running 'python run.py' prints instructions for how to use this program:
 ```
 Enter two species to transfer interactions from, or one species to transfer
 all other organism protein interactions from, or "arguments.txt" as input
