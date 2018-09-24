@@ -1,5 +1,30 @@
+# Protein Interactions Predictor
 
-1. Uses [`Python 2.7`](https://www.python.org/download/releases/2.7/)
+## Description
+This repository contains the code I wrote for my independent research project when I worked with Yu Lab in Spring 2018.
+
+I automated and optimized all steps for data analysis (data collection, visualization, machine learning to cluster interactions), making it feasible to analyze all 56 organisms with a single command.
+
+The program I wrote transfers protein interaction annotations across organisms based on sequence similarity at various sites including interface sites, domain sites, or DNA binding sites. Sequences are compared by calculating features including # matching residues, # similar residues, differences in residue features such as hydrophobicity, polarity, or solvent accessible surface area.
+
+Databases used:
+* [`UniProt`](http://www.uniprot.org)
+* [`HINT`](http://hint.yulab.org)
+* [`Interactome INSIDER`](http://interactomeinsider.yulab.org)
+* [`The European Bioinformatics Institute`](https://www.ebi.ac.uk)
+
+Organisms Used for Transferring Annotations Between:
+* Escherichia Coli, Strain K12
+* Drosophila Melanogaster
+* Mus Musculus
+* Homo Sapiens
+* Schizosaccharomyces Pombe, Strain 972H
+* Caenorhabditis Elegans
+* Arabidopsis Thaliana
+* Saccharomyces Cerevisiae, Strain S288C
+
+## Instructions
+1. Have [`Python 2.7`](https://www.python.org/download/releases/2.7/)
 
 2. Setup BLAST: follow installation and configuration steps from [`NCBI BLAST Manual`](https://www.ncbi.nlm.nih.gov/books/NBK279671/)
 
@@ -9,7 +34,7 @@ pip install -r requirements.txt
 ```
 
 5.
-Doing 'python run.py' prints instructions for how to use this program:
+Running 'python run.py' prints instructions for how to use this program:
 ```
 Enter two species to transfer interactions from, or one species to transfer
 all other organism protein interactions from, or "arguments.txt" as input
