@@ -5,7 +5,7 @@ This repository contains the code I wrote for my independent research project wh
 
 I automated and optimized all steps for data analysis (data collection, visualization, machine learning to cluster interactions), making it feasible to analyze all 56 organisms with a single command.
 
-The program I wrote transfers protein interaction annotations across organisms based on sequence similarity at various sites including interface sites, domain sites, or DNA binding sites. Sequences are compared by calculating features including # matching residues, # similar residues, differences in residue features such as hydrophobicity, polarity, or solvent accessible surface area.
+The program I wrote transfers protein interaction annotations across organisms based on sequence similarity at various sites including interface sites, domain sites, or DNA binding sites. Sequences are compared by calculating features including # matching residues, # similar residues, or differences in residue features such as hydrophobicity, polarity, or solvent accessible surface area.
 
 Databases used:
 * [`UniProt`](http://www.uniprot.org)
