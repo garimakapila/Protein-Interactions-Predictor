@@ -1,3 +1,5 @@
+# Copyright © Garima Kapila
+
 from numpy import genfromtxt
 import pandas as pd
 import time

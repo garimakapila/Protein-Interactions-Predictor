@@ -1,3 +1,5 @@
+# Copyright © Garima Kapila
+
 from SequenceParser import *
 from GlobalAlignment import *
 from DataParser import *

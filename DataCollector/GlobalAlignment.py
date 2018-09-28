@@ -1,3 +1,5 @@
+# Copyright © Garima Kapila
+
 import Bio.pairwise2 as pairwise, Bio.SubsMat.MatrixInfo as mat, datetime, sys
 from SequenceParser import *
 from DataParser import *

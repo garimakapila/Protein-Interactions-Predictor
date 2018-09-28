@@ -1,3 +1,5 @@
+# Copyright © Garima Kapila
+
 from DataParser import *
 import time
 

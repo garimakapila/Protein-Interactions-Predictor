@@ -1,3 +1,5 @@
+# Copyright © Garima Kapila
+
 import bs4, csv, os, subprocess, sys, urllib, urllib2
 
 

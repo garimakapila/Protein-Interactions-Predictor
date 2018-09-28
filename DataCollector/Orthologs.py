@@ -1,3 +1,5 @@
+# Copyright © Garima Kapila
+
 import csv, pandas as pd, sys
 from DataParser import *
 from SequenceParser import *

@@ -1,3 +1,5 @@
+# Copyright © Garima Kapila
+
 from ML.DataParser import *
 from ML.Visualizer import *
 from ML.Voter import *

@@ -1,3 +1,5 @@
+# Copyright © Garima Kapila
+
 import csv, os, pandas as pd, signal, subprocess, sys, time
 
 

@@ -1,3 +1,5 @@
+# Copyright © Garima Kapila
+
 from DataCollector.BlastP import *
 from DataCollector.DataParser import *
 from DataCollector.FileFetcher import FileFetcher

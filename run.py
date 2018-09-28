@@ -1,3 +1,5 @@
+# Copyright © Garima Kapila
+
 from Collector import *
 from Results import *
 import bs4, lxml.html as html, re, urllib2

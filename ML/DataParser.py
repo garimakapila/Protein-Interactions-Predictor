@@ -1,3 +1,5 @@
+# Copyright © Garima Kapila
+
 from scipy.optimize import curve_fit
 import numpy as np
 import pandas as pd

@@ -1,3 +1,5 @@
+# Copyright © Garima Kapila
+
 import bs4, lxml.html as html, urllib2
 
 

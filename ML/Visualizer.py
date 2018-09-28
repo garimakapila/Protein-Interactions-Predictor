@@ -1,3 +1,5 @@
+# Copyright © Garima Kapila
+
 import matplotlib.pyplot as plt
 import pandas as pd, pptx, re, scipy, seaborn, StringIO
 seaborn.set(color_codes = True)

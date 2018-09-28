@@ -1,3 +1,5 @@
+# Copyright © Garima Kapila
+
 import Bio.SeqUtils as bsu, Bio.SubsMat.MatrixInfo as mat, pandas as pd
 from Bio.SeqUtils import ProtParamData
 from DataParser import *
