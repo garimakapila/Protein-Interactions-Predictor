@@ -3,7 +3,7 @@
 ## Description
 This repository contains the code I wrote for my independent research project when I worked with Yu Lab in Spring 2018.
 
-I automated and optimized all steps for data analysis (data collection, visualization, machine learning to cluster interactions), making it feasible to analyze all 56 organisms with a single command.
+I automated and optimized all steps for data analysis (data collection, visualization, machine learning to cluster interactions), making it feasible to analyze all 56 organism-organism mappings with a single command.
 
 The program I wrote transfers protein interaction annotations across organisms based on sequence similarity at various sites including interface sites, domain sites, or DNA binding sites. Sequences are compared by calculating features including # matching residues, # similar residues, or differences in residue features such as hydrophobicity, polarity, or solvent accessible surface area.
 
