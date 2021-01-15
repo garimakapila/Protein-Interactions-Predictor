@@ -1,11 +1,11 @@
 # Protein Interactions Predictor
 
 ## Description
-This repository contains the code I wrote for my independent research project when I worked with Yu Lab in Spring 2018.
+This repository contains the code I wrote for my independent research project when I worked with Yu Lab @ Cornell in Spring 2018.
 
-I automated and optimized all steps for data analysis (data collection, visualization, machine learning to cluster interactions), making it feasible to analyze all 56 organism-organism mappings with a single command.
+This program transfers protein interaction annotations across organisms based on sequence similarity at various sites including interface sites, domain sites, or DNA binding sites. Sequences are compared by calculating features including # matching residues, # similar residues, or differences in residue features such as hydrophobicity, polarity, or solvent accessible surface area. You can find the rankings of these features in the [/P-Value](https://github.com/garimakapila/Protein-Interactions-Predictor/tree/master/P-Values) folder.
 
-The program I wrote transfers protein interaction annotations across organisms based on sequence similarity at various sites including interface sites, domain sites, or DNA binding sites. Sequences are compared by calculating features including # matching residues, # similar residues, or differences in residue features such as hydrophobicity, polarity, or solvent accessible surface area.
+The steps are automated with messages and progress bars to indicate the status in the command line: data collection from the web, data filtering, calculations, clustering interactions, and generating a powerpoint file with visualizations.
 
 Databases used:
 * [`UniProt`](http://www.uniprot.org)
@@ -67,5 +67,17 @@ python run.py HS SC ALL
 python run.py HS HQ
 python run.py arguments.txt ALL
 ```
+
+## Results
+
+There are a total of 56 possible organism-organism mappings. You can find a few examples in the [/Graphs](https://github.com/garimakapila/Protein-Interactions-Predictor/tree/master/Graphs) folder.
+
+An example of a plot comparing the BLOSUM scores between non-interactacting (0) vs. interacting (1) pairs. 
+
+![alt text](https://raw.githubusercontent.com/garimakapila/Protein-Interactions-Predictor/master/plot.png)
+
+After picking the top features and doing dimensionality reduction, these were the PCA results:
+
+![alt text](https://raw.githubusercontent.com/garimakapila/Protein-Interactions-Predictor/master/pca.png)
 
 
